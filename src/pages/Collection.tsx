@@ -192,12 +192,12 @@ export const Collection: React.FC = () => {
                 ...prev,
                 collection: { ...prev.collection, sort: e.target.value }
               }))}
-              className="w-full bg-transparent border-none text-xs font-semibold focus:outline-none cursor-pointer text-slate-850 dark:text-slate-200"
+              className="w-full bg-transparent border-none text-xs font-semibold focus:outline-none cursor-pointer text-slate-700 dark:text-slate-200"
             >
-              <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-250" value="dateAdded-desc">Date Added: Newest</option>
-              <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-250" value="dateAdded-asc">Date Added: Oldest</option>
-              <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-250" value="value-desc">Value: High to Low</option>
-              <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-250" value="value-asc">Value: Low to High</option>
+              <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="dateAdded-desc">Date Added: Newest</option>
+              <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="dateAdded-asc">Date Added: Oldest</option>
+              <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="value-desc">Value: High to Low</option>
+              <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="value-asc">Value: Low to High</option>
             </select>
           </div>
         </div>
@@ -215,14 +215,14 @@ export const Collection: React.FC = () => {
               ...prev,
               collection: { ...prev.collection, category: e.target.value }
             }))}
-            className="bg-slate-50 border border-slate-200 dark:border-slate-800 dark:bg-slate-950 text-xs px-3 py-1.5 rounded-lg focus:ring-1 focus:ring-indigo-500 font-semibold text-slate-850 dark:text-slate-200"
+            className="bg-slate-50 border border-slate-200 dark:border-slate-800 dark:bg-slate-950 text-xs px-3 py-1.5 rounded-lg focus:ring-1 focus:ring-indigo-500 font-semibold text-slate-700 dark:text-slate-200"
           >
-            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-250" value="">All Categories</option>
-            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-250" value="Trading Cards">Trading Cards</option>
-            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-250" value="Retro Games">Retro Games</option>
-            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-250" value="Comic Books">Comic Books</option>
-            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-250" value="Action Figures">Action Figures</option>
-            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-250" value="Vintage Watches">Vintage Watches</option>
+            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="">All Categories</option>
+            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="Trading Cards">Trading Cards</option>
+            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="Retro Games">Retro Games</option>
+            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="Comic Books">Comic Books</option>
+            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="Action Figures">Action Figures</option>
+            <option className="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="Vintage Watches">Vintage Watches</option>
           </select>
 
           {(activeSearch || category) && (
