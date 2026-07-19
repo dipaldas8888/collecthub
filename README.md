@@ -6,16 +6,22 @@ CollectHub is a premium, highly responsive web application built with **React**,
 
 ## 📸 Screenshots
 
-Here are previews of the user interface:
+Here are previews of the user interface in both **Dark Mode** and **Light Mode**:
 
-### 1. Marketplace Module (Light/Dark Mode support)
-![Marketplace Page Preview](./public/screenshots/marketplace.png)
+### 1. Marketplace Module
+| Dark Mode | Light Mode |
+| :---: | :---: |
+| ![Marketplace Dark](./public/screenshots/marketplace.png) | ![Marketplace Light](./public/screenshots/marketplace_light.png) |
 
 ### 2. My Collection Portfolio Dashboard
-![Collection Page Preview](./public/screenshots/collection.png)
+| Dark Mode | Light Mode |
+| :---: | :---: |
+| ![Collection Dark](./public/screenshots/collection.png) | ![Collection Light](./public/screenshots/collection_light.png) |
 
 ### 3. Community Feed & Discussion Spotlight
-![Community Page Preview](./public/screenshots/community.png)
+| Dark Mode | Light Mode |
+| :---: | :---: |
+| ![Community Dark](./public/screenshots/community.png) | ![Community Light](./public/screenshots/community_light.png) |
 
 ---
 
