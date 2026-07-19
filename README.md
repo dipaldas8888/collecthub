@@ -7,7 +7,7 @@ CollectHub is a premium, highly responsive web application built with **React**,
 ## 🎥 Demo Video
 
 Watch the feature walkthrough of the application:
-<video src="./public/demo_recording.webm" controls width="100%"></video>
+<video src="https://github.com/dipaldas8888/collecthub/raw/main/public/demo_recording.webm" width="100%" controls></video>
 
 ---
 
