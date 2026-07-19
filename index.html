@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>CollectHub | The Ultimate Collector's Hub &amp; Marketplace</title>
+    <meta name="description" content="Discover, track, and showcase your rare collectibles. Join the community, list items for sale, and manage your personal collections on CollectHub." />
+    <meta name="keywords" content="collectibles, marketplace, trading cards, retro games, watches, comic books, action figures, portfolio" />
+    <meta name="author" content="CollectHub Team" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Blocking dark-mode init: runs before React mounts to prevent flash -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('hub_theme');
+          var sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (stored === 'dark' || (!stored && sysDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
